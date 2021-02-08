@@ -1,0 +1,17 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  // color: #202020;
+  color: red;
+  // background-color: red;
+  // margin: 0;
+}
+
+[class*='Wrp'] {
+  width: 100%;
+  max-width: 1278px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

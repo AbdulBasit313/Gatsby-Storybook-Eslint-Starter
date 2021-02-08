@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+// Partials Starts
+
+//Styling using globally in projects.
+// HTML reset CSS.
+@import "./reset";
+// Default Styling.
+@import "global";
+
+@import "theme";

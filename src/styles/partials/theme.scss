@@ -1,0 +1,63 @@
+/* ===========
+      Theme Color
+      =========== 
+      * primaryColor: 
+      * primaryContrastColor: 
+      * primaryTextColor: 
+      * primaryContrastTextColor: 
+      * darkGreyColor: 
+      */
+.text-primary {
+}
+
+.font-medium {
+}
+.font-regular {
+}
+.font-thin {
+}
+.font-bold {
+}
+.font-heavy {
+}
+
+$themeColors: (
+  primaryColor: #0074bc,
+  secondaryColor: #76ced9,
+  tertiaryColor: "",
+  textLight: #ffffff,
+  textGray: #58595b,
+  textDark: #000000,
+  btnDisable: "",
+  borderLight: "",
+  overlayColor: "",
+  iconColor: "",
+  placeholderColor: "",
+  textColor: #222,
+  danger: "",
+  labelColor: "",
+);
+
+@function color($color-name) {
+  @return map-get($themeColors, $color-name);
+}
+
+/* ========================
+            Social Media Theme Color
+            ======================== */
+$socialMediaThemeColor: (
+  facebook: #3b5998,
+  twitter: #1da1f2,
+  instagram: #dd2a7b,
+  linkedin: #0274b3,
+  google-plus: #dd4d40,
+  pinterest: #e56262,
+  youtube: #d8362a,
+);
+
+@function socialColor($color-name) {
+  @return map-get($socialMediaThemeColor, $color-name);
+}
+
+@import "_mixins";
+@import "_global.scss";
